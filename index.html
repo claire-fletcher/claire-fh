@@ -1,41 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Claire</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Claire FH</title>
 </head>
 
 <body>
-    <main>
+
+    <!--Header with navigation bar will be on every page?-->
+    <header>
         <h1>Claire Fletcher</h1>
+        <nav>
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="./pages/envsus.html">Environmental Sustainability</a>
+            </div>
+        </nav>
+    </header>
 
-        <h2>About Me</h2>
-        <p>Hi, I'm Claire &#128075;</p>
-        <p>I'm a Software Engineer working in the Site Reliability Engineering team at Pexip.
-            I'm passionate about building reliable and well-instrumented systems which follow best practices.
-            Well-documented code and systems is a must for me!</p>
-        <p>My background started with environmental sustainability so I am currently combining my expertise and passion
-            by contributing to the
-            "CNCF Technical Advisory Group for Environmental Sustainability" as a lead!</p>
+    <main>
 
-        <h2>Isn't this a bit basic?</h2>
-        <p><strong>Yes, it is!</strong> I am a firm believer in continuous learning and front-end web development is one
-            area of software that I don't have much experience with.
-            I am currently completing the codefirstgirls <a href="https://codefirstgirls.com/courses/coding-kickstarter">Introduction
-                to Web Development</a> course learning the basics of HTML, CSS and JavaScript.</p>
-        </p>
+        <!-- using a div, this is mainly done for CSS styling. Group elements together etc.-->
+        <div>
+            <h2>About Me</h2>
+            <p>Hi, I'm Claire &#128075;</p>
+            <p>I'm a Software Engineer working in the Site Reliability Engineering team at Pexip.
+                I'm passionate about building reliable and well-instrumented systems which follow best practices.
+                Well-documented code and systems is a must for me!</p>
+            <p>My background started with environmental sustainability so I am currently combining my expertise and
+                passion
+                by contributing to the
+                "CNCF Technical Advisory Group for Environmental Sustainability" as a lead!</p>
+            <img src="assets/whale.webp" alt="CNCF TAG logo" width="100" height="100"
+                title="CNCF TAG Environmental Sustainability logo" style="display: block; margin: 0 auto;">
+        </div>
 
-        <footer
-            style="position: fixed; bottom: 0; width: 100%; background-color: #f8f9fa; padding: 10px; text-align: center;">
-            <p>
-                <a href="https://www.linkedin.com/in/clair3-f/">LinkedIn</a>
-                <hr>
-                <a href="https://github.com/claire-fletcher/claire-fh">GitHub</a>
+        <div>
+            <h2>Isn't this a bit basic?</h2>
+            <p><strong>Yes, it is!</strong> I am a firm believer in continuous learning and front-end web development is
+                one
+                area of software that I don't have much experience with.
+                I am currently completing the codefirstgirls <a
+                    href="https://codefirstgirls.com/courses/coding-kickstarter">Introduction
+                    to Web Development</a> course learning the basics of HTML, CSS, and combining this with JavaScript.
             </p>
-        </footer>
+            </p>
+            <p>
+                One benefit of this simplicity is the reduced carbon impact!
+            <div id="wcb" class="carbonbadge"></div>
+            <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+            </p>
+        </div>
 
     </main>
+
+
+    <footer
+        style="position: fixed; bottom: 0; width: 100%; background-color: #f8f9fa; padding: 10px; text-align: center;">
+        <p>
+            <a href="https://www.linkedin.com/in/clair3-f/">LinkedIn</a>
+            <hr>
+            <a href="https://github.com/claire-fletcher/claire-fh">GitHub</a>
+        </p>
+        <p>&copy; 2024 Claire Fletcher</p>
+
+    </footer>
 
 </body>
 
