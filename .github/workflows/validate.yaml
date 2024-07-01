@@ -7,11 +7,11 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          ref: ${{ github.head_ref }}
+# Note: use fetch depth to get previous commit if needed
       
       - name: Prettier Code Check
-        uses: stefanzweifel/prettier-action@v2
-        with:
-          files: .
-          prettierOptions: --check
+	      uses: creyD/prettier_action@v4.2		
+        with:		
+          prettier_options: --write .
 
