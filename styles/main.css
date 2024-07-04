@@ -1,0 +1,62 @@
+/*Dev!!!*/
+/* * {
+    outline: 1px solid orange;
+} */
+
+
+body {
+    background-color: #f1f2ec;
+    color: #010101;
+    font-family: "Fraunces", sans-serif;
+}
+
+h1 {
+    color: #28511c;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container {
+    padding: 1%;
+    border: #010101 solid 1px;
+    background-color: #c8bea0;
+    margin: 1%;
+}
+
+/*All for the navigation bar*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #28511c;
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav li a:hover {
+    background-color: #466d1d;
+}
+
+nav .active {
+    background-color: #466d1d;
+}
+
+nav li {
+    border-right: 1px solid #bbb;
+}
+  
+nav li:last-child {
+    border-right: none;
+}
