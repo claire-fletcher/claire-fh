@@ -8,6 +8,15 @@ body {
     background-color: #f1f2ec;
     color: #010101;
     font-family: "Fraunces", sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    min-height: 50px;
+  }
+  
+footer {
+    min-height: 50px;
 }
 
 h1 {
@@ -16,6 +25,17 @@ h1 {
     font-weight: bold;
 }
 
+/*FlexBoxes*/
+body {
+    display: flex;
+    flex-direction: column;
+}
+  
+main {
+    flex: 1;
+}
+
+/*Example styling for the box concept*/
 .container {
     padding: 1%;
     border: #010101 solid 1px;
@@ -59,4 +79,37 @@ nav li {
   
 nav li:last-child {
     border-right: none;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:link {
+    color: white;
+}
+
+/*Styling for all of the links*/
+a:link {
+    color: #28511c;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #28511c;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*Styling for the footer*/
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1%;
+    text-align: center;
 }
