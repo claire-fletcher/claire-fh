@@ -1,0 +1,22 @@
+name: Package
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  docker-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Build Docker image
+
+  
+  docker-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Push Docker image
+
